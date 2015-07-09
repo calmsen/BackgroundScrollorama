@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>DEXP Ixion P 4" защищенный смартфон IP67</title>
+    <meta name="description" content='Ixion P 4" — доступный 4-х ядерный смартфон с защитой IP67 от воды, пыли и грязи. Рекомендованная цена 9990 руб.'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="Content/Styles/bootstrap.css" rel="stylesheet" />
+	<link href="Content/Styles/BackgroundScrollorama.css" rel="stylesheet" />
+	<link href="Content/Styles/Site.css" rel="stylesheet" />
+</head>
+<body style="height: 8000px;">
+	<div class="scrollblock">
+        <div class="scrollblock-inner-lg">
+            <div class="bg bg-lg-1 bg-lg-1-fadeout"></div>
+            <div class="bg bg-lg-2 bg-lg-2-fadein"></div>
+            <div class="bg bg-lg-2 bg-lg-2-fadeout"></div>
+            <div class="bg bg-lg-3 bg-lg-3-fadein"></div>
+            <div class="bg bg-lg-3 bg-lg-3-fadeout"></div>
+            <div class="bg bg-lg-4 bg-lg-4-fadein"></div>
+            <div class="bg bg-lg-4 bg-lg-4-fadeout"></div>
+            <div class="bg bg-lg-5 bg-lg-5-fadein"></div>
+        </div>
+        <div class="scrollblock-inner-md">
+            <div class="bg bg-md-1 bg-md-1-fadeout"></div>
+            <div class="bg bg-md-2 bg-md-2-fadein"></div>
+            <div class="bg bg-md-2 bg-md-2-fadeout"></div>
+            <div class="bg bg-md-3 bg-md-3-fadein"></div>
+            <div class="bg bg-md-3 bg-md-3-fadeout"></div>
+            <div class="bg bg-md-4 bg-md-4-fadein"></div>
+            <div class="bg bg-md-4 bg-md-4-fadeout"></div>
+            <div class="bg bg-md-5 bg-md-5-fadein"></div>
+        </div>
+        <div class="scrollblock-inner-sm">
+            <div class="bg bg-sm-1 bg-sm-1-fadeout"></div>
+            <div class="bg bg-sm-2 bg-sm-2-fadein"></div>
+            <div class="bg bg-sm-2 bg-sm-2-fadeout"></div>
+            <div class="bg bg-sm-3 bg-sm-3-fadein"></div>
+            <div class="bg bg-sm-3 bg-sm-3-fadeout"></div>
+            <div class="bg bg-sm-4 bg-sm-4-fadein"></div>
+            <div class="bg bg-sm-4 bg-sm-4-fadeout"></div>
+            <div class="bg bg-sm-5 bg-sm-5-fadein"></div>
+        </div>
+        <div class="scrollblock-inner-xs">
+            <div class="bg bg-xs-1 bg-xs-1-fadeout"></div>
+            <div class="bg bg-xs-2 bg-xs-2-fadein"></div>
+            <div class="bg bg-xs-2 bg-xs-2-fadeout"></div>
+            <div class="bg bg-xs-3 bg-xs-3-fadein"></div>
+            <div class="bg bg-xs-3 bg-xs-3-fadeout"></div>
+            <div class="bg bg-xs-4 bg-xs-4-fadein"></div>
+            <div class="bg bg-xs-4 bg-xs-4-fadeout"></div>
+            <div class="bg bg-xs-5 bg-xs-5-fadein"></div>
+        </div>
+    </div>
+        
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script><script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-browser/0.0.7/jquery.browser.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+    <script src="Content/Javascripts/jquery.scrollorama.js"></script>
+    <script src="Content/Javascripts/device.min.js"></script>
+    <script src="Content/Javascripts/jquery.mousewheel.min.js"></script>
+    <script src="Content/Javascripts/jquery.simplr.smoothscroll.min.js"></script>
+    <script src="Content/Javascripts/BackgroundScrollorama.js"></script>
+	<script>
+	var scrollorama = $.scrollorama({
+		blocks: '.scrollblock'
+	});
+	var winEl = $(window);
+
+	var cHeight = 1080;
+	var c1Height, c2Height, c3Height, c4Height, c5Height;
+	c1Height = c2Height = c3Height = c4Height = c5Height = cHeight;
+	c3Height += 1760;
+	var duration = 300;
+	initScrollorama(
+		c1Height, c2Height, c3Height, c4Height, c5Height, 
+		".bg-lg-1", ".bg-lg-2", ".bg-lg-3", ".bg-lg-4", ".bg-lg-5",
+		duration
+		);
+	var cHeight = 850;
+	var c1Height, c2Height, c3Height, c4Height, c5Height;
+	c1Height = c3Height = c4Height = c5Height = cHeight;
+	c2Height = 850;
+	c3Height += 1480;
+	var duration = 300;
+	initScrollorama(
+		c1Height, c2Height, c3Height, c4Height, c5Height,
+		".bg-md-1", ".bg-md-2", ".bg-md-3", ".bg-md-4", ".bg-md-5",
+		duration
+		);
+	var cHeight = 850;
+	var c1Height, c2Height, c3Height, c4Height, c5Height;
+	c1Height = c2Height = c3Height = c4Height = c5Height = cHeight;
+	c3Height += 1160;
+	var duration = 300;
+	initScrollorama(
+		c1Height, c2Height, c3Height, c4Height, c5Height,
+		".bg-sm-1", ".bg-sm-2", ".bg-sm-3", ".bg-sm-4", ".bg-sm-5",
+		duration
+		);
+	var cHeight = 1200;
+	var c1Height, c2Height, c3Height, c4Height, c5Height;
+	c1Height = c3Height = c4Height = c5Height = cHeight;
+	cHeight = 850;
+	c3Height += 2100;
+	var duration = 200;
+	initScrollorama(
+		c1Height, c2Height, c3Height, c4Height, c5Height,
+		".bg-xs-1", ".bg-xs-2", ".bg-xs-3", ".bg-xs-4", ".bg-xs-5",
+		duration
+		);
+	</script>
+</body>
+</html>
