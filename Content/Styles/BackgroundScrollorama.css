@@ -4,97 +4,8 @@
   height: 100%;
   background-repeat: no-repeat;
   background-position: center top;
+  background-size: cover;
   opacity: 0;
-}
-.bg-lg-1,
-.bg-lg-3,
-.bg-md-1,
-.bg-md-3,
-.bg-sm-1,
-.bg-sm-3,
-.bg-xs-1,
-.bg-xs-3 {
-  background-size: cover;
-}
-.bg-lg-2,
-.bg-lg-4,
-.bg-lg-5,
-.bg-md-2,
-.bg-md-4,
-.bg-md-5,
-.bg-sm-2,
-.bg-sm-4,
-.bg-sm-5,
-.bg-xs-2,
-.bg-xs-4,
-.bg-xs-5 {
-  background-color: #000;
-  background-size: cover;
-}
-.bg-lg-1,
-.bg-lg-3,
-.bg-md-1,
-.bg-md-3,
-.bg-sm-1,
-.bg-sm-3,
-.bg-xs-1,
-.bg-xs-3 {
-  background-image: url(../Images/1930x1400_bg3.jpg);
-}
-.bg-lg-2 {
-  background-image: url(../Images/Preview/1930x1080_.jpg);
-}
-.bg-lg-4 {
-  background-image: url(../Images/Service/1930x1080.jpg);
-}
-.bg-lg-5 {
-  background-image: url(../Images/Buy/1930x1080.jpg);
-}
-.bg-md-2 {
-  background-image: url(../Images/Preview/1199x850_.jpg);
-}
-.bg-md-4 {
-  background-image: url(../Images/Service/1199x850.jpg);
-}
-.bg-md-5 {
-  background-image: url(../Images/Buy/1199x850.jpg);
-}
-.bg-sm-2 {
-  background-image: url(../Images/Preview/991x850_.jpg);
-}
-.bg-sm-4 {
-  background-image: url(../Images/Service/991x850.jpg);
-}
-.bg-sm-5 {
-  background-image: url(../Images/Buy/991x850.jpg);
-}
-.bg-xs-2 {
-  background-image: url(../Images/Preview/768x850_.jpg);
-}
-.bg-xs-4 {
-  background-image: url(../Images/Service/768x1200.jpg);
-}
-.bg-xs-5 {
-  background-image: url(../Images/Buy/768x1200.jpg);
-}
-.bg-lg-2-fadeout,
-.bg-lg-3-fadeout,
-.bg-lg-4-fadeout,
-.bg-lg-5-fadeout,
-.bg-md-2-fadeout,
-.bg-md-3-fadeout,
-.bg-md-4-fadeout,
-.bg-sm-2-fadeout,
-.bg-sm-3-fadeout,
-.bg-sm-4-fadeout,
-.bg-xs-2-fadeout,
-.bg-xs-3-fadeout,
-.bg-xs-4-fadeout {
-  display: none;
-}
-body {
-  min-width: 450px;
-  background-color: #000;
 }
 .scrollblock {
   width: 100%;
@@ -117,9 +28,6 @@ body {
   .scrollblock-inner-lg {
     display: none;
   }
-  .container-wrap-5 .container {
-    height: 1900px;
-  }
 }
 @media (min-width: 768px) {
   .scrollblock-inner-sm {
@@ -129,9 +37,6 @@ body {
   .scrollblock-inner-md,
   .scrollblock-inner-lg {
     display: none;
-  }
-  .container-wrap-5 .container {
-    height: 1160px;
   }
 }
 @media (min-width: 992px) {
@@ -143,9 +48,6 @@ body {
   .scrollblock-inner-lg {
     display: none;
   }
-  .container-wrap-5 .container {
-    height: 1480px;
-  }
 }
 @media (min-width: 1200px) {
   .scrollblock-inner-lg {
@@ -155,8 +57,5 @@ body {
   .scrollblock-inner-sm,
   .scrollblock-inner-md {
     display: none;
-  }
-  .container-wrap-5 .container {
-    height: 1760px;
   }
 }
