@@ -14,13 +14,29 @@ var BackgroundScrollorama = (function($){
         , init: function (options) {
 			$.extend(true, this, this.defaults, options);
 			// smooth scroll
+			this.initSmoothscroll();
+			//
+			this.initScrollorama();
+		}
+		, initSmoothscroll: function() {
 			if ($('html').hasClass('desktop')) {
 				$.srSmoothscroll({
 					step: 100,
 					speed: 500
 				});
 			}
-			//
+		}
+		, initScrollorama: function() {
+			$('<div class="scrollblock">'+
+				'<div class="scrollblock-inner-lg">'+
+				'</div>'+
+				'<div class="scrollblock-inner-md">'+
+				'</div>'+
+				'<div class="scrollblock-inner-sm">'+
+				'</div>'+
+				'<div class="scrollblock-inner-xs">'+
+				'</div>'+
+			'</div>').prependTo("body");
 			this._scrollorama = $.scrollorama({
 				blocks: '.scrollblock'
 			});
